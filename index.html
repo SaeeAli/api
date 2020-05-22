@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+    <style>
+    	input {
+    		background-color: orange;
+    		color: red;
+    		margin-top: 30px;
+    		margin-left: 30px;
+    	}
+
+    	#searchInput {
+    		width: 70%;
+    		height: 30px;
+    	}
+
+    	#btn {
+    		width: 8%;
+    		height: 30px;
+    	}
+    </style>
+    </head>
+    
+    <body>
+        
+        <input type="text" placeholder="search" id="searchInput">
+        <input type="submit" value="submit" id="btn">
+
+        <div id="results"></div>
+        
+        <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha256-4+XzXVhsDmqanXGHaHvgh1gMQKX40OUvDEBTu8JcmNs=" crossorigin="anonymous"></script>
+        <script src="./api.js"></script>
+
+    </body>
+</html>
